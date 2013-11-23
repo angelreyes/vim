@@ -25,6 +25,8 @@ set showmatch
 set showcmd
 set scrolloff=1
 set encoding=utf-8
+set hlsearch
+npam ,q :nohlsearch<CR>
 
 "Save time
 nmap <space> :
