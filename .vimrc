@@ -26,7 +26,7 @@ set showcmd
 set scrolloff=1
 set encoding=utf-8
 set hlsearch
-npam ,q :nohlsearch<CR>
+nmap ,q :nohlsearch
 
 "Save time
 nmap <space> :
