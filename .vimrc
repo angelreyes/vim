@@ -4,7 +4,7 @@ execute pathogen#infect('~/.vim/bundle/{}')
 syntax on
 
 set background=dark
-colorscheme wombat256
+colorscheme solarized
 
 set history=1000
 set showmode
