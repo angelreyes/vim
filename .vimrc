@@ -27,6 +27,7 @@ set scrolloff=1
 set encoding=utf-8
 set hlsearch
 nmap ,q :nohlsearch
+set wrap
 
 "Save time
 nmap <space> :
