@@ -1,17 +1,14 @@
 
 execute pathogen#infect('~/.vim/bundle/{}')
 
-syntax on
-
 set background=dark
 colorscheme wombat256
 
+syntax on
 set history=1000
 set showmode
 set showcmd
 set mouse=a
-
-set tabstop=2
 set shiftwidth=2
 set expandtab
 set cindent
@@ -20,8 +17,16 @@ set autoindent
 set number
 set splitbelow
 set cinkeys=0{,0},:,0#,!,!^F
+set virtualedit=onemore
+set spell
+set cursorline
+set incsearch 
 set backspace=indent,eol,start
 set showmatch
+set winminheight=0
+set ignorecase
+set smartcase
+set list
 set showcmd
 set scrolloff=1
 set encoding=utf-8
