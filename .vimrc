@@ -2,7 +2,7 @@
 execute pathogen#infect('~/.vim/bundle/{}')
 
 set background=dark
-colorscheme wombat256
+colorscheme molokai
 
 syntax on
 set history=1000
