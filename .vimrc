@@ -26,7 +26,6 @@ set showmatch
 set winminheight=0
 set ignorecase
 set smartcase
-set list
 set showcmd
 set scrolloff=1
 set encoding=utf-8
