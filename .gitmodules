@@ -10,3 +10,9 @@
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "vim-perl"]
+	path = vim-perl
+	url = git://github.com/vim-perl/vim-perl.git
+[submodule "bundle/vim-perl"]
+	path = bundle/vim-perl
+	url = git://github.com/vim-perl/vim-perl.git
