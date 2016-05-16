@@ -1,11 +1,16 @@
 
 execute pathogen#infect('~/.vim/bundle/{}')
 
+" enable 256 colors in xterm 
+set t_Co=256
+
 set background=dark
-colorscheme zenburn
+colorscheme solarized
+let g:solarized_termcolors=256
 
 syntax on
 set history=1000
+set paste
 set showmode
 set showcmd
 set mouse=a
@@ -65,9 +70,6 @@ autocmd FileType html,css set noexpandtab tabstop=2
 " needed, and have indentation at 8 chars to be sure that all indents are tabs
 " (despite the mappings later):
 autocmd FileType make set noexpandtab shiftwidth=8
-
-" enable 256 colors in xterm 
-set t_Co=256
 
 " set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\  
 " set laststatus=2
